@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,900');
+// @import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+// @import 'https://fonts.googleapis.com/icon?family=Roboto';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+// @include mat-core();
+// @include angular-material-theme($dark-theme);
+//
+// // Dark AngularMaterial theme
+// $dark-primary: mat-palette($mat-blue-grey);
+// $dark-accent:  mat-palette($mat-amber, A200, A100, A400);
+// $dark-warn: mat-palette($mat-deep-orange);
+// $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
+$font-stack: "Merriweather", serif;
+$primary-font-color: #333;
+
+body {
+  display: flex;
+  flex-direction: column;
+  font: 100% $font-stack;
+  color: $primary-font-color;
+  margin: 0 auto;
+}
