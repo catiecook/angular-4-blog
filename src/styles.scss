@@ -21,4 +21,10 @@ body {
   font: 100% $font-stack;
   color: $primary-font-color;
   margin: 0 auto;
+  height: 100%
+}
+
+.emph {
+  font-weight: 300;
+  font-style: italic;
 }

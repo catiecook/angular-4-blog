@@ -14,7 +14,8 @@ import {
     MatMenuModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatGridList
   ],
   exports: [
     MatButtonModule,

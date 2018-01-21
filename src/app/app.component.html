@@ -2,8 +2,19 @@
 <div style="text-align:center">
   <app-navbar></app-navbar>
   <h1>
-    Welcome to {{ title }}!
+    {{ title }}
   </h1>
-  
+
+  <section class='emph'>
+  {{ description }}
+  </section>
+
+  <!-- <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+  </mat-grid-list> -->
+
 <app-footer></app-footer>
 <router-outlet></router-outlet>
