@@ -6,14 +6,15 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 import { MaterialModule } from '../assets/material/material.module';
-
-import 'hammerjs'
+import { AppGridComponent } from './app-grid/app-grid.component';
+import 'hammerjs';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    AppGridComponent
   ],
   imports: [
     BrowserModule,
