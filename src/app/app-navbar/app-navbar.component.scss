@@ -8,16 +8,31 @@ a:hover {
 }
 
 ul {
-  padding: 0 30% 1%;
+  // padding: 0 30% 1%;
   list-style: none;
 }
 
-.main_nav {
+.nav {
   display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 3em;
 }
 
-.nav_item {
+.nav-item-container {
+  display: flex;
+  align-self: flex-end;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.nav-item {
+  margin-left: 1.3em;
+  margin-right: 1.3em;
+}
+
+.nav-title {
+  display: flex;
+  align-items: flex-start;
+  font-size: 3em;
+  margin-right: 1.5em;
 }
