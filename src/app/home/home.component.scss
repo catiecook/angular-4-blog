@@ -10,10 +10,11 @@
 
 .featured_item {
   padding: 1em;
+  opacity: .8;
 }
 
 .featured_item:hover {
-  opacity: .8;
+  opacity: 1;
 }
 
 .featured_container .featured_item {
@@ -53,4 +54,8 @@
 img {
   max-width: 100%;
   z-index: 50;
+}
+
+h2 {
+  font-weight: lighter;
 }
