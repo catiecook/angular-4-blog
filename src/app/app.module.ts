@@ -12,6 +12,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
 import { PhotoComponent } from './photo/photo.component';
 import { HomeComponent } from './home/home.component';
+import { NewPostComponent } from './new-post/new-post.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     BlogComponent,
     ProjectComponent,
     PhotoComponent,
-    HomeComponent
+    HomeComponent,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,

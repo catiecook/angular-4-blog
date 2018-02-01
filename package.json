@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@angular/cdk": "^5.1.0",
+    "@angular-devkit/core": "0.0.29",
     "@angular/material": "^5.1.0",
     "bcryptjs": "~2.4.0",
     "body-parser": "~1.15.1",

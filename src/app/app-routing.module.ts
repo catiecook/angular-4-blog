@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { PhotoComponent } from './photo/photo.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
-
+import { NewPostComponent } from './new-post/new-post.component';
 
 const routes: Routes = [
   {
@@ -23,6 +23,14 @@ const routes: Routes = [
   {
     path: 'project',
     component: ProjectComponent
+  },
+  // {
+  //   path: 'blog/all',
+  //   component: PhotoComponent
+  // },
+  {
+    path: 'blog/new',
+    component: NewPostComponent
   }
 ];
 
