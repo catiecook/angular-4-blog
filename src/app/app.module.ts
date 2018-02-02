@@ -6,20 +6,19 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 import { MaterialModule } from './material/material.module';
-import { AppGridComponent } from './app-grid/app-grid.component';
 import 'hammerjs';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectComponent } from './project/project.component';
 import { PhotoComponent } from './photo/photo.component';
 import { HomeComponent } from './home/home.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
     AppFooterComponent,
-    AppGridComponent,
     BlogComponent,
     ProjectComponent,
     PhotoComponent,
@@ -30,7 +29,8 @@ import { NewPostComponent } from './new-post/new-post.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

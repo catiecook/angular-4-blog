@@ -1,0 +1,39 @@
+{{diagnostic}}
+<div class="container">
+    <h1>New Post</h1>
+    <form #postForm="ngForm">
+
+      <div class="form-group">
+        <label for="cat">Category</label>
+        <select class="form-control" id="category" required>
+          <option *ngFor="let cat of category" [value]="cat">
+            {{cat}}
+          </option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Author</label>
+        <input type="text" class="form-control" id="name" required
+          [(ngModel)]="model.author" name="author">
+      </div>
+
+      <div class="form-group">
+        <label for="body">
+          Write Post Here
+        </label>
+        <textarea type="text" class="form-control" id="body" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="image">
+          Upload An Image
+        </label>
+        <input type="file" class="form-control" id="photo" accept="image/*">
+      </div>
+
+      <button type="submit" class="btn btn-success">
+        Submit
+      </button>
+    </form>
+</div>
