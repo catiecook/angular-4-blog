@@ -13,6 +13,7 @@ import { PhotoComponent } from './photo/photo.component';
 import { HomeComponent } from './home/home.component';
 import { NewPostComponent } from './new-post/new-post.component';
 import { FormsModule }   from '@angular/forms';
+import { SinglePostComponent } from './single-post/single-post.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule }   from '@angular/forms';
     ProjectComponent,
     PhotoComponent,
     HomeComponent,
-    NewPostComponent
+    NewPostComponent,
+    SinglePostComponent
   ],
   imports: [
     BrowserModule,
