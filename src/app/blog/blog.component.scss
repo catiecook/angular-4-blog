@@ -12,6 +12,11 @@
   margin: 2em;
 }
 
+.feature_title {
+  font-style: italic;
+  text-align: left;
+}
+
 .feature_photo {
   width: 60%;
   margin: 2em;
@@ -42,6 +47,12 @@
   -webkit-margin-before: 0px;
   background-color: rgb(228, 228, 228);
   margin: 0 1em 1em 1em;
+}
+
+.post_title {
+  // display: flex;
+  margin-bottom: 1%;
+  text-align: left;
 }
 
 // container for photo peek of blog post

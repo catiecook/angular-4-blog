@@ -6,7 +6,7 @@
     <p>
       Lorem ipsum dolor sit amet, postea volumus est at, ei quod tale eos. Quod meis explicari sit ad. Ei summo oportere theophrastus pri, et mel liber vitae suscipiantur. Et pri dolore aliquando, ne delicata reprimique per. Porro noluisse signiferumque ad vel, cum cu iusto vocibus. Sit dolorem consectetuer te.
     </p>
-    <div class="img-container">
+    <div class="img_container">
       <img src="../assets/images/pine.jpg">
     </div>
     <p>
@@ -21,32 +21,50 @@
     <p>
       Et pri dolore aliquando, ne delicata reprimique per. Porro noluisse signiferumque ad vel, cum cu iusto vocibus. Sit dolorem consectetuer te. Lorem ipsum dolor sit amet, postea volumus est at, ei quod tale eos. Quod meis explicari sit ad. Ei summo oportere theophrastus pri, et mel liber vitae suscipiantur. Et pri dolore aliquando, ne delicata reprimique per. Porro noluisse signiferumque ad vel, cum cu iusto vocibus. Sit dolorem consectetuer te
     </p>
-    <div class="img-container">
+    <div class="img_container">
       <img src="../assets/images/frozen.jpg">
     </div>
     <p>
       Lorem ipsum dolor sit amet, postea volumus est at, ei quod tale eos. Quod meis explicari sit ad. Ei summo oportere theophrastus pri, et mel liber vitae suscipiantur.
     </p>
 
-    <ul class="next-buttons">
-      <li class="split-buttons"> << Previous Post </li>
-      <li class="split-buttons"> Next Post >> </li>
-    </ul>
+    <mat-paginator></mat-paginator>
+    <!-- <ul class="next_buttons">
+      <a reouterLink="#">
+        <li class="split_buttons"> << Previous Post </li>
+      </a>
+      <a reouterLink="#">
+        <li class="split_buttons"> Next Post >> </li>
+      </a>
+    </ul> -->
 
-    <section class="comments post">
-      <h3 class="highlighter comments-title">Comments</h3>
-      <form>
-        <div class="form-group">
+    <!-- <section class="comments">
+      <h3 class="highlighter comments_title">Comments</h3>
+      <mat-form-field>
+        <div class="form_group">
           <label for="commenter">Name</label>
           <input type="text" name="commenter">
         </div>
-        <div class="form-group">
-          <label for="comment-body" name="comment">Comment:</label>
-          <textarea type="text" class="form-control" id="comment"></textarea>
+        <div class="form_group">
+          <label for="comment_body" name="comment">Comment:</label>
+          <textarea type="text" class="form_control" id="comment"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-
-    </section>
+        <section class="comment_submit">
+          <button mat-raised-button>Basic</button>
+        </section>
+      </mat-form-field>
+    </section> -->
   </section>
+</div>
+
+<div class="example-container">
+  <h3 class="highlighter comments_title">Comments</h3>
+  <mat-form-field >
+    <input matInput placeholder="Input">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+  <button mat-raised-button>Basic</button>
 </div>

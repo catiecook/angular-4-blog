@@ -18,6 +18,14 @@ const routes: Routes = [
     component: BlogComponent
   },
   {
+    path: 'blog/new',
+    component: NewPostComponent
+  },
+  {
+    path: 'blog/:id',
+    component: SinglePostComponent
+  },
+  {
     path: 'photo',
     component: PhotoComponent
   },
@@ -29,14 +37,7 @@ const routes: Routes = [
     path: 'project/:id',
     component: ProjectComponent
   },
-  {
-    path: 'blog/new',
-    component: NewPostComponent
-  },
-  {
-    path: 'blog/:id',
-    component: SinglePostComponent
-  },
+
   // {
   //   path: 'blog/edit/:id',
   //   component: EditPostComponent

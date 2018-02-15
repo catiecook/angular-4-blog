@@ -52,6 +52,8 @@ import {
     MatIconModule,
     MatCardModule,
     MatGridListModule,
+    MatPaginatorModule,
+    MatFormFieldModule,
   ]
 })
 export class MaterialModule {}
